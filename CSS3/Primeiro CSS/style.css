@@ -1,0 +1,50 @@
+h1 {
+  color: purple;
+  font-size: 50px;
+  border-color: yellow;
+  border-width: 8px;
+  border-style: solid;
+
+  border: 2px dashed orange;
+}
+li {
+  color: green;
+}
+body {
+  background-color: grey;
+}
+body {
+  background-image: url("www.google.com");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.moon {
+  color: yellow;
+  font-size: 20px;
+}
+.big-text {
+  font-size: 40px;
+}
+#europa-text {
+  font-size: 10px;
+  color: blue;
+}
+li {
+  color: violet;
+}
+* {
+  border: 2px solid;
+}
+li > a {
+  color: red;
+}
+h1 + h4 {
+  border: 4px;
+}
+a[href="/recibo"] {
+  color: orange;
+}
+
+li:nth-of-type(odd) {
+  color: purple;
+}
